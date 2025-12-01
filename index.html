@@ -57,7 +57,13 @@
             console.log(`Human Score : ${humanScore}\nComputerScore : ${computerScore}`)
         }
 
-        playRound()
+        function playGame(){
+            for(let i = 0; i < 5; i++){
+                playRound()
+            }
+        
+        }
+        playGame()
     </script>
 </body>
 </html>
